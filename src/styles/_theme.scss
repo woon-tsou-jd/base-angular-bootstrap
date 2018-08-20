@@ -1,5 +1,8 @@
 // Modify the default bootstrap theme
+
 $theme-colors: (
-  "primary": $light-blue,
-  "secondary": $dark-blue
+  "primary": $theme-light-blue,
+  "secondary": $theme-dark-gray,
+  "danger": $theme-red,
+  "warning": $theme-yellow
 );

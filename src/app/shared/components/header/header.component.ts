@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class HeaderComponent implements OnInit {
+  public isCollapsed = false;
   constructor() { }
 
   ngOnInit() { }

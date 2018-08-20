@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
+import { NgBootstrapModule } from './ng-bootstrap.module';
 import { LayoutComponent } from './components/layout/layout.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -12,12 +13,14 @@ import { MinHeightLayoutCalcDirective } from './directives/minHeightLayoutCalc.d
   imports: [
     CommonModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    NgBootstrapModule
   ],
   exports: [
     CommonModule,
     ReactiveFormsModule,
     FormsModule,
+    NgBootstrapModule,
     PageComponent
   ],
   declarations: [
